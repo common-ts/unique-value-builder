@@ -1,0 +1,25 @@
+{
+  "name": "unique-value-builder",
+  "version": "0.0.1",
+  "description": "Unique value builder",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "tslint": "5.10.0",
+    "typescript": "^3.3.3333"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/common-ts/unique-value-builder"
+  },
+  "keywords": [
+    "unique-value-builder"
+  ]
+}
